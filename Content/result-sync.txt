@@ -1,0 +1,7 @@
+
+This is the Result of Synchronous File Creation: 	
+
+Hello this is first text file. 	
+Hello this is Second Text File.
+
+This is the Appended Content.(With the help of flag.)
