@@ -1,0 +1,23 @@
+{
+  "name": "node.js_tutorial",
+  "version": "1.0.0",
+  "description": "Node and Express Tutorial",
+  "main": "1-intro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swapnil-Parashare/Node-Repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swapnil-Parashare/Node-Repo/issues"
+  },
+  "homepage": "https://github.com/Swapnil-Parashare/Node-Repo#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "lodash": "^4.17.21"
+  }
+}
