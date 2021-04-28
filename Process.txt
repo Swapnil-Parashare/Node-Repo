@@ -3,9 +3,9 @@ Exact Process to be followed:-
 
 1]When we initialize git repository at our local machine using 'git init' , we are directed to 'master'branch.    
 2]Then we do 'git add .' and 'git commit -m "Initial Commit" to save all the files at our "Local Head".  
-3]Now Git doesn't we to push this repository on GitHub. So we need set a "Remote Head" for it.  
+3]Now Git doesn't know were to push this repository on GitHub. So we need set a "Remote Head" for it.  
 4]We create an empty repository on GitHub "Node-Repo" were our code can be pushed.  
-5]We were directed to the page from were we copied the "origin link".  
+5]We were directed to the page from were we copied the "origin link". (Below mentioned link are also given on the same page.)  
 4]Remote Head for our local git repository is set by following 3 commands:-  
   a) git remote add origin "copied origin link"  :-------------------------> We can confirm wether Remote origin is added correctly by git remote -v  
   b) git branch -M main                          :-------------------------> Very intresting thing happened here. When we initialized our git repository,  
