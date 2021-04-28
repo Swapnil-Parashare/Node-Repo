@@ -57,5 +57,17 @@ console.log(new_items);
 
 
 
-/**Adding this comment to see the functioning. */
-/* Adding another comment for conformation */
+/* 
+
+Node.js and GitHub :-
+
+1] By Following "Process.txt" our GitHub Repository "Node-Repo" is setup and we have pushed all our code there.
+2] But we have not pushed "node_modules" on "GitHub" by putting it inside'.gitignore' folder.
+3] How does the user cloning our repository will be able to run this code as all the dependencies are stored inside "node_modules".
+4] Well package.json have all the dependencies inside its 'dependencies' property.
+5] A single command 'npm install' will install all the dependencies present there.
+6] Thus node_module folder will be set-up in user's own workspace.
+7] Hence there is no need to push such a huge folder to GitHub. All thanks goes to package.json
+
+Thus package.json has immense importance :- We can share our code without dragging massive "node_modules" folder with us.
+*/
