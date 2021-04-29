@@ -1,0 +1,11 @@
+
+This is the Result of "Promisfy" Function from inbuilt 'util' Module. 
+
+Hello this is first text file. 
+Hello this is Second Text File.
+
+
+
+Appending with the final simplified solution(sol3) 
+Now the process has become highly simplified.
+Its Awesome!!!!!!!!!

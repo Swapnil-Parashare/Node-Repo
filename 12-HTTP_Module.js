@@ -38,7 +38,7 @@ const server = http.createServer((req,res) =>
 })
 
 // Our server will be avialable on this specified port i.e "this is the port to which our server will be listening to" .
-server.listen(5000);                                                
+server.listen(5500,()=>{console.log(`\nServer is listening to port : 5500........\n`)});                                     // In a single Node.js project no 2 servers can listen to single port. Make sure the port you give is not in use.                                 
 
 /*  Process :-
     1] First we need to run this file.

@@ -28,7 +28,7 @@ console.log(`\n${first} \n${second}`);
      If if no file of such name exit then it is created by node.js for us.
 */
 
-writeFileSync(  './Content/result-sync.txt',                                         // File Path
+writeFileSync(  './Content/result-sync.txt',                                                                  // File Path
                 `\nThis is the Result of Synchronous File Creation: \t\n\n${first} \t\n${second}`             // Content of the file.
              );        
  

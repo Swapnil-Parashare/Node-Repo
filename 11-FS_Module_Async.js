@@ -64,6 +64,7 @@ readFile('./Content/first.txt','utf8',(err1,result1) =>                         
                     }
                     else
                     {
+                        console.log(result);                           // result will be undefiend.
                         console.log(`File Created Successfully!!!!`);
 
                     }
